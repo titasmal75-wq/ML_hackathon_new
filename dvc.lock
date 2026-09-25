@@ -1,0 +1,57 @@
+schema: '2.0'
+stages:
+  data_ingestion:
+    cmd: python src/data_ingestion.py
+    deps:
+    - path: student_resource/dataset/test/test_source1.tsv
+      hash: md5
+      md5: 51a155b8c84bfefcf049e983f06c3cf4
+      size: 175022086
+    - path: student_resource/dataset/test/test_source2.tsv
+      hash: md5
+      md5: ff8aba5701829a622ac05b2765c4eb5b
+      size: 509456422
+    - path: student_resource/dataset/test/test_source3.tsv
+      hash: md5
+      md5: 5f48d48594dea3ea1455549eb5233ad8
+      size: 506002772
+    - path: student_resource/dataset/train/train_ground_truth.tsv
+      hash: md5
+      md5: 3643443570b2c881c425d69c2d46e95d
+      size: 127015583
+    - path: student_resource/dataset/train/train_source1.tsv
+      hash: md5
+      md5: 1a0c98e43dad1babed3c99bca2c7b5bd
+      size: 210069713
+    - path: student_resource/dataset/train/train_source2.tsv
+      hash: md5
+      md5: a7bddba33ead4a85e6c088ad3b377fc2
+      size: 489301488
+    - path: student_resource/dataset/train/train_source3.tsv
+      hash: md5
+      md5: 5df07bf109f55a292bdfaa8c983cfa20
+      size: 503705637
+    outs:
+    - path: data/raw/
+      hash: md5
+      md5: 3ae3fcd1bab4e3b7f2cc188fcf9f0782.dir
+      size: 2520573701
+      nfiles: 7
+  preprocessing:
+    cmd: python src/data_preprocessing.py
+    deps:
+    - path: data/raw/
+      hash: md5
+      md5: 3ae3fcd1bab4e3b7f2cc188fcf9f0782.dir
+      size: 2520573701
+      nfiles: 7
+    - path: src/data_preprocessing.py
+      hash: md5
+      md5: 3a7d80413f064db28cff4fdb40f772eb
+      size: 8003
+    outs:
+    - path: data/processed/
+      hash: md5
+      md5: c84a6b0cd1289849a95f45a62472b2f6.dir
+      size: 4436057158
+      nfiles: 7

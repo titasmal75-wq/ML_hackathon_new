@@ -1,0 +1,30 @@
+2026-09-26 00:15:32,304 - data_preprocessing - INFO - Processing source file: data\raw\train\train_source1.tsv
+2026-09-26 00:15:39,326 - data_preprocessing - INFO - Original shape: (2206821, 4)
+2026-09-26 00:16:48,288 - data_preprocessing - INFO - Saved processed file: data\processed\train\train_source1.tsv
+2026-09-26 00:16:48,289 - data_preprocessing - INFO - Processed shape: (2206821, 7)
+2026-09-26 00:16:48,740 - data_preprocessing - INFO - Processing source file: data\raw\train\train_source2.tsv
+2026-09-26 00:17:07,954 - data_preprocessing - INFO - Original shape: (5034616, 4)
+2026-09-26 00:19:50,541 - data_preprocessing - INFO - Saved processed file: data\processed\train\train_source2.tsv
+2026-09-26 00:19:50,541 - data_preprocessing - INFO - Processed shape: (5034616, 7)
+2026-09-26 00:19:51,567 - data_preprocessing - INFO - Processing source file: data\raw\train\train_source3.tsv
+2026-09-26 00:20:11,921 - data_preprocessing - INFO - Original shape: (5285603, 4)
+2026-09-26 00:23:11,429 - data_preprocessing - INFO - Saved processed file: data\processed\train\train_source3.tsv
+2026-09-26 00:23:11,429 - data_preprocessing - INFO - Processed shape: (5285603, 7)
+2026-09-26 00:23:12,623 - data_preprocessing - INFO - Processing ground truth: data\raw\train\train_ground_truth.tsv
+2026-09-26 00:23:21,623 - data_preprocessing - INFO - Saved ground truth: data\processed\train\train_ground_truth.tsv
+2026-09-26 00:23:21,623 - data_preprocessing - INFO - Ground truth shape: (2206821, 2)
+2026-09-26 00:23:21,768 - data_preprocessing - INFO - Processing source file: data\raw\test\test_source1.tsv
+2026-09-26 00:23:27,877 - data_preprocessing - INFO - Original shape: (1732544, 4)
+2026-09-26 00:24:29,440 - data_preprocessing - INFO - Saved processed file: data\processed\test\test_source1.tsv
+2026-09-26 00:24:29,440 - data_preprocessing - INFO - Processed shape: (1732544, 7)
+2026-09-26 00:24:29,814 - data_preprocessing - INFO - Processing source file: data\raw\test\test_source2.tsv
+2026-09-26 00:24:51,080 - data_preprocessing - INFO - Original shape: (4887273, 4)
+2026-09-26 00:27:43,958 - data_preprocessing - INFO - Saved processed file: data\processed\test\test_source2.tsv
+2026-09-26 00:27:43,958 - data_preprocessing - INFO - Processed shape: (4887273, 7)
+2026-09-26 00:27:45,194 - data_preprocessing - INFO - Processing source file: data\raw\test\test_source3.tsv
+2026-09-26 00:28:04,745 - data_preprocessing - INFO - Original shape: (5082316, 4)
+2026-09-26 00:31:04,122 - data_preprocessing - INFO - Saved processed file: data\processed\test\test_source3.tsv
+2026-09-26 00:31:04,123 - data_preprocessing - INFO - Processed shape: (5082316, 7)
+2026-09-26 00:31:05,285 - data_preprocessing - INFO - ============================================
+2026-09-26 00:31:05,285 - data_preprocessing - INFO - DATA PREPROCESSING COMPLETED SUCCESSFULLY
+2026-09-26 00:31:05,286 - data_preprocessing - INFO - ============================================

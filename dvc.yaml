@@ -1,0 +1,26 @@
+stages:
+
+  data_ingestion:
+    cmd: python src/data_ingestion.py
+
+    deps:
+      - student_resource/dataset/train/train_source1.tsv
+      - student_resource/dataset/train/train_source2.tsv
+      - student_resource/dataset/train/train_source3.tsv
+      - student_resource/dataset/train/train_ground_truth.tsv
+      - student_resource/dataset/test/test_source1.tsv
+      - student_resource/dataset/test/test_source2.tsv
+      - student_resource/dataset/test/test_source3.tsv
+
+    outs:
+      - data/raw/
+
+  preprocessing:
+    cmd: python src/data_preprocessing.py
+
+    deps:
+      - src/data_preprocessing.py
+      - data/raw/
+
+    outs:
+      - data/processed/

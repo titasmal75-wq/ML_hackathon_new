@@ -1,0 +1,5 @@
+data_ingestion:
+  raw_data_path: "data/raw"
+
+preprocessing:
+  processed_data_path: "data/processed"

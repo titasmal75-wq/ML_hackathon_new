@@ -1,0 +1,10 @@
+2026-09-26 00:15:16,699 - data_ingestion - INFO - Starting training data ingestion...
+2026-09-26 00:15:16,803 - data_ingestion - INFO - Copied: student_resource\dataset\train\train_source1.tsv
+2026-09-26 00:15:17,093 - data_ingestion - INFO - Copied: student_resource\dataset\train\train_source2.tsv
+2026-09-26 00:15:17,457 - data_ingestion - INFO - Copied: student_resource\dataset\train\train_source3.tsv
+2026-09-26 00:15:17,550 - data_ingestion - INFO - Copied: student_resource\dataset\train\train_ground_truth.tsv
+2026-09-26 00:15:17,551 - data_ingestion - INFO - Starting test data ingestion...
+2026-09-26 00:15:17,673 - data_ingestion - INFO - Copied: student_resource\dataset\test\test_source1.tsv
+2026-09-26 00:15:18,005 - data_ingestion - INFO - Copied: student_resource\dataset\test\test_source2.tsv
+2026-09-26 00:15:18,348 - data_ingestion - INFO - Copied: student_resource\dataset\test\test_source3.tsv
+2026-09-26 00:15:18,349 - data_ingestion - INFO - Data ingestion completed successfully!
